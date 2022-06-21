@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Account | MODELIZ-api</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="MODELIZ-api">
+    
+    <link rel="preload" href="/assets/css/0.styles.a55f8259.css" as="style"><link rel="preload" href="/assets/js/app.4c0f0ee4.js" as="script"><link rel="preload" href="/assets/js/2.2f924489.js" as="script"><link rel="preload" href="/assets/js/7.b9ecbfa4.js" as="script"><link rel="prefetch" href="/assets/js/10.6d0b40ba.js"><link rel="prefetch" href="/assets/js/11.931bca1b.js"><link rel="prefetch" href="/assets/js/12.3894e746.js"><link rel="prefetch" href="/assets/js/13.d6bbf90e.js"><link rel="prefetch" href="/assets/js/14.d4082159.js"><link rel="prefetch" href="/assets/js/15.a6ebdc9e.js"><link rel="prefetch" href="/assets/js/16.0dd394fe.js"><link rel="prefetch" href="/assets/js/3.01807445.js"><link rel="prefetch" href="/assets/js/4.23b2b5fb.js"><link rel="prefetch" href="/assets/js/5.2343963a.js"><link rel="prefetch" href="/assets/js/6.e1029689.js"><link rel="prefetch" href="/assets/js/8.97dd1892.js"><link rel="prefetch" href="/assets/js/9.a84049fe.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a55f8259.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">MODELIZ-api</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/" aria-current="page" class="sidebar-link">MODELIZ-api</a></li><li><a href="/Account.html" aria-current="page" class="active sidebar-link">Account</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Account.html#erpexportclient" class="sidebar-link">erpExportClient</a></li><li class="sidebar-sub-header"><a href="/Account.html#statisticsclients" class="sidebar-link">statisticsClients</a></li><li class="sidebar-sub-header"><a href="/Account.html#erpnewclients" class="sidebar-link">erpNewClients</a></li><li class="sidebar-sub-header"><a href="/Account.html#requestcode" class="sidebar-link">requestCode</a></li><li class="sidebar-sub-header"><a href="/Account.html#loginwithcode" class="sidebar-link">loginWithCode</a></li><li class="sidebar-sub-header"><a href="/Account.html#sendotpmail" class="sidebar-link">sendOtpMail</a></li><li class="sidebar-sub-header"><a href="/Account.html#prototype-sendemail" class="sidebar-link">prototype.sendEmail</a></li><li class="sidebar-sub-header"><a href="/Account.html#erpcreateclient" class="sidebar-link">erpCreateClient</a></li><li class="sidebar-sub-header"><a href="/Account.html#prototype-erpupdatecodeerp" class="sidebar-link">prototype.erpUpdateCodeErp</a></li><li class="sidebar-sub-header"><a href="/Account.html#sendmailrdv" class="sidebar-link">sendMailRdv</a></li><li class="sidebar-sub-header"><a href="/Account.html#sendmailrelancerclient" class="sidebar-link">sendMailRelancerClient</a></li></ul></li><li><a href="/BabylonModelProject.html" class="sidebar-link">BabylonModelProject</a></li><li><a href="/Company.html" class="sidebar-link">Company</a></li><li><a href="/CompanyProductColor.html" class="sidebar-link">CompanyProductColor</a></li><li><a href="/CompanySetorisations.html" class="sidebar-link">CompanySetorisations</a></li><li><a href="/GroupModelDefinition.html" class="sidebar-link">GroupModelDefinition</a></li><li><a href="/GroupPieces.html" class="sidebar-link">GroupPieces</a></li><li><a href="/InAppNotification.html" class="sidebar-link">InAppNotification</a></li><li><a href="/Statistics.html" class="sidebar-link">Statistics</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="account"><a href="#account" class="header-anchor">#</a> Account</h1> <h2 id="erpexportclient"><a href="#erpexportclient" class="header-anchor">#</a> erpExportClient</h2> <p>Find a client and return xml format</p> <h3 id="request"><a href="#request" class="header-anchor">#</a> Request</h3> <p><code>POST /:id/erpExportClient</code></p> <h3 id="parameters"><a href="#parameters" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>id</td> <td>number</td> <td>true</td> <td>account client id</td></tr> <tr><td>res</td> <td>object</td> <td>true</td> <td>context</td></tr></tbody></table> <h3 id="response"><a href="#response" class="header-anchor">#</a> Response</h3> <h4 id=""><a href="#" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: accountClient,
+  type: AccountClient,
+  root: true,
+  description: return xml format
+}
+</code></pre></div><h2 id="statisticsclients"><a href="#statisticsclients" class="header-anchor">#</a> statisticsClients</h2> <p>data statistics clients</p> <h3 id="request-2"><a href="#request-2" class="header-anchor">#</a> Request</h3> <p><code>POST /statisticsClients</code></p> <h3 id="parameters-2"><a href="#parameters-2" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>companyId</td> <td>number</td> <td>true</td> <td></td></tr></tbody></table> <h3 id="response-2"><a href="#response-2" class="header-anchor">#</a> Response</h3> <h4 id="-2"><a href="#-2" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: data,
+  type: object,
+  root: true,
+  description: data statistics clients
+}
+</code></pre></div><h2 id="erpnewclients"><a href="#erpnewclients" class="header-anchor">#</a> erpNewClients</h2> <p>List new erp clients</p> <h3 id="request-3"><a href="#request-3" class="header-anchor">#</a> Request</h3> <p><code>GET /erpNewClients</code></p> <h3 id="parameters-3"><a href="#parameters-3" class="header-anchor">#</a> Parameters</h3> <h3 id="response-3"><a href="#response-3" class="header-anchor">#</a> Response</h3> <h4 id="-3"><a href="#-3" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: AccountClient,
+  type: [AccountClient],
+  root: true,
+  description: List new erp clients
+}
+</code></pre></div><h2 id="requestcode"><a href="#requestcode" class="header-anchor">#</a> requestCode</h2> <p>Login with credentials and send OTP back</p> <h3 id="request-4"><a href="#request-4" class="header-anchor">#</a> Request</h3> <p><code>POST /requestCode</code></p> <h3 id="parameters-4"><a href="#parameters-4" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>credentials</td> <td>object</td> <td>true</td> <td>Login with credentials and send OTP back</td></tr></tbody></table> <h3 id="response-4"><a href="#response-4" class="header-anchor">#</a> Response</h3> <h4 id="-4"><a href="#-4" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: timestamps,
+  type: string,
+  root: true,
+  description: undefined
+}
+</code></pre></div><h2 id="loginwithcode"><a href="#loginwithcode" class="header-anchor">#</a> loginWithCode</h2> <p>Login with credentials and OTP code</p> <h3 id="request-5"><a href="#request-5" class="header-anchor">#</a> Request</h3> <p><code>POST /loginWithCode</code></p> <h3 id="parameters-5"><a href="#parameters-5" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>credentials</td> <td>object</td> <td>true</td> <td>Login with credentials and OTP code</td></tr></tbody></table> <h3 id="response-5"><a href="#response-5" class="header-anchor">#</a> Response</h3> <h4 id="-5"><a href="#-5" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: accessToken,
+  type: object,
+  root: true,
+  description: The response body contains access token for authenticated user
+}
+</code></pre></div><h2 id="sendotpmail"><a href="#sendotpmail" class="header-anchor">#</a> sendOtpMail</h2> <p>Send OTP code</p> <h3 id="request-6"><a href="#request-6" class="header-anchor">#</a> Request</h3> <p><code>POST /sendOtpMail</code></p> <h3 id="parameters-6"><a href="#parameters-6" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>credentials</td> <td>object</td> <td>true</td> <td>Send OTP code</td></tr></tbody></table> <h3 id="response-6"><a href="#response-6" class="header-anchor">#</a> Response</h3> <h4 id="-6"><a href="#-6" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: response,
+  type: object,
+  root: true,
+  description: The response body contains success message and time
+}
+</code></pre></div><h2 id="prototype-sendemail"><a href="#prototype-sendemail" class="header-anchor">#</a> prototype.sendEmail</h2> <p>send email</p> <h3 id="request-7"><a href="#request-7" class="header-anchor">#</a> Request</h3> <p><code>POST /sendEmail</code></p> <h3 id="parameters-7"><a href="#parameters-7" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>credentials</td> <td>object</td> <td>true</td> <td>context</td></tr> <tr><td>data</td> <td>any</td> <td>true</td> <td>data destination email, title, message of email</td></tr></tbody></table> <h3 id="response-7"><a href="#response-7" class="header-anchor">#</a> Response</h3> <h4 id="-7"><a href="#-7" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: isSuccess,
+  type: boolean,
+  root: false,
+  description: is success
+}
+</code></pre></div><h2 id="erpcreateclient"><a href="#erpcreateclient" class="header-anchor">#</a> erpCreateClient</h2> <p>Create Account with Client Data from Erp</p> <h3 id="request-8"><a href="#request-8" class="header-anchor">#</a> Request</h3> <p><code>POST /erpCreateClient</code></p> <h3 id="parameters-8"><a href="#parameters-8" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>ctx</td> <td>any</td> <td>true</td> <td>context</td></tr> <tr><td>data</td> <td>any</td> <td>true</td> <td>Account with Client data</td></tr></tbody></table> <h3 id="response-8"><a href="#response-8" class="header-anchor">#</a> Response</h3> <h4 id="-8"><a href="#-8" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: account,
+  type: Account,
+  root: true,
+  description: Account with Client data
+}
+</code></pre></div><h2 id="prototype-erpupdatecodeerp"><a href="#prototype-erpupdatecodeerp" class="header-anchor">#</a> prototype.erpUpdateCodeErp</h2> <p>Update Account with code Erp</p> <h3 id="request-9"><a href="#request-9" class="header-anchor">#</a> Request</h3> <p><code>PATCH /erpUpdateCodeErp</code></p> <h3 id="parameters-9"><a href="#parameters-9" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>ctx</td> <td>any</td> <td>true</td> <td>context</td></tr> <tr><td>data</td> <td>any</td> <td>true</td> <td>Code ERP</td></tr></tbody></table> <h3 id="response-9"><a href="#response-9" class="header-anchor">#</a> Response</h3> <h4 id="-9"><a href="#-9" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: account,
+  type: Account,
+  root: true,
+  description: Account with Client data
+}
+</code></pre></div><h2 id="sendmailrdv"><a href="#sendmailrdv" class="header-anchor">#</a> sendMailRdv</h2> <p>Send Mail Rdv</p> <h3 id="request-10"><a href="#request-10" class="header-anchor">#</a> Request</h3> <p><code>POST /sendMailRdv</code></p> <h3 id="parameters-10"><a href="#parameters-10" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>data</td> <td>any</td> <td>true</td> <td>Send Mail Rdv</td></tr></tbody></table> <h3 id="response-10"><a href="#response-10" class="header-anchor">#</a> Response</h3> <h4 id="-10"><a href="#-10" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: response,
+  type: object,
+  root: true,
+  description: The response body contains success message and time
+}
+</code></pre></div><h2 id="sendmailrelancerclient"><a href="#sendmailrelancerclient" class="header-anchor">#</a> sendMailRelancerClient</h2> <p>Send Mail relancer client</p> <h3 id="request-11"><a href="#request-11" class="header-anchor">#</a> Request</h3> <p><code>POST /sendMailRelancerClient</code></p> <h3 id="parameters-11"><a href="#parameters-11" class="header-anchor">#</a> Parameters</h3> <table><thead><tr><th>Arg</th> <th>Type</th> <th>Required</th> <th>Description</th></tr></thead> <tbody><tr><td>data</td> <td>any</td> <td>true</td> <td>Send Mail relancer client</td></tr></tbody></table> <h3 id="response-11"><a href="#response-11" class="header-anchor">#</a> Response</h3> <h4 id="-11"><a href="#-11" class="header-anchor">#</a></h4> <div class="language- extra-class"><pre><code>{
+  arg: response,
+  type: object,
+  root: true,
+  description: The response body contains success message and time
+}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/" class="prev router-link-active">
+        MODELIZ-api
+      </a></span> <span class="next"><a href="/BabylonModelProject.html">
+        BabylonModelProject
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.4c0f0ee4.js" defer></script><script src="/assets/js/2.2f924489.js" defer></script><script src="/assets/js/7.b9ecbfa4.js" defer></script>
+  </body>
+</html>
